@@ -5,7 +5,6 @@ import java.sql.DriverManager;
 import java.sql.SQLException;
 
 public class Conexion {
-    // URL CORREGIDA - añade "jdbc:" al inicio
     private final String URL = "jdbc:postgresql://localhost:5432/clinica";
     private final String USER = "postgres";
     private final String PASSWORD = "postgres";
